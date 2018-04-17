@@ -1,5 +1,7 @@
 # Integration testing assignment
 
+Author: Danny Nielsen.
+
 I've chosen to use the supplied [Glarmester](https://github.com/Cphbusiness-dat1sem-org/Glarmester_solution.git) project for this assignment.
 
 ## Integration testing strategy
@@ -43,13 +45,17 @@ The main tests will be performed on the `DataAccessorDatabase` class methods. Th
 | 1            |         Get the correct price for glass from the DB          |             300 |
 | 2            | Get the correct prices for all three frame types from the DB |     250/200/100 |
 
-In order to not tamper with glarmester_solution.data in the database, 
+If there were any write operations to the database in this sample application, I would copy the production database to a staging database every time tests are run, in order to not tamper with the production data in the database.
 
-### Additional tests
+This being a small assignment, I chose not to waste time doing this.
+
+### Additional tests 
 
 I am going to test the `PriceCalculator.calculatePrice()` method too, as the program's main functionality lies in this method.
 
 ## Test execution
 
 Test execution can be found in the in this project's source code. See the test suite [here](). 
+
+### Test results
 
