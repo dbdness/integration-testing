@@ -1,4 +1,4 @@
-package java;
+package glarmester_solution.data;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -10,13 +10,13 @@ public class DBConnector {
 	//Constants
 	private static final String IP	     = "localhost";
 	private static final String PORT     = "3306";
-	public  static final String DATABASE = "glarmester";
+	private   static final String DATABASE = "glarmester";
 	private static final String USERNAME = "root";
 	private static final String PASSWORD = "1234";	     	
 	
-	public DBConnector() throws Exception {
+	public DBConnector(String database) throws Exception {
    		Class.forName("com.mysql.jdbc.Driver").newInstance();
-   		String url = "jdbc:mysql://" + IP + ":" + PORT + "/" + DATABASE + "?useSSL=false";
+   		String url = "jdbc:mysql://" + IP + ":" + PORT + "/" + database + "?useSSL=false";
    		this.connection = (Connection) DriverManager.getConnection(url, USERNAME, PASSWORD);
 	}
 	

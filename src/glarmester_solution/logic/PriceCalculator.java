@@ -1,6 +1,6 @@
 package glarmester_solution.logic;
 
-import java.DataAccessor;
+import glarmester_solution.data.DataAccessor;
 
 /**
  *

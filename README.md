@@ -43,6 +43,8 @@ The main tests will be performed on the `DataAccessorDatabase` class methods. Th
 | 1            |         Get the correct price for glass from the DB          |             300 |
 | 2            | Get the correct prices for all three frame types from the DB |     250/200/100 |
 
+In order to not tamper with glarmester_solution.data in the database, 
+
 ### Additional tests
 
 I am going to test the `PriceCalculator.calculatePrice()` method too, as the program's main functionality lies in this method.

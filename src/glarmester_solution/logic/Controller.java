@@ -1,8 +1,8 @@
 package glarmester_solution.logic;
 
 import glarmester_solution.presentation.UI;
-import java.DataAccessor;
-import java.DataAccessorDatabase;
+import glarmester_solution.data.DataAccessor;
+import glarmester_solution.data.DataAccessorDatabase;
 
 import glarmester_solution.presentation.TUI;
 
@@ -14,8 +14,8 @@ public class Controller {
     public static final boolean DEBUG = true;
     private UI ui = new TUI();
     //private UI ui = new GUI();
-//  private DataAccessor data = new DataAccessorFile();
-    private DataAccessor data = new DataAccessorDatabase();
+//  private DataAccessor glarmester_solution.data = new DataAccessorFile();
+    private DataAccessor data = new DataAccessorDatabase("glarmester");
     private PriceCalculator logic = new PriceCalculator();
     
     public void go() {

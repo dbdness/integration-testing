@@ -1,4 +1,4 @@
-package java;
+package glarmester_solution.data;
 
 import glarmester_solution.logic.FrameType;
 

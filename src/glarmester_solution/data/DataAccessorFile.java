@@ -1,4 +1,4 @@
-package java;
+package glarmester_solution.data;
 
 import glarmester_solution.logic.FrameType;
 import java.io.FileReader;
@@ -7,7 +7,7 @@ import static glarmester_solution.logic.Controller.DEBUG;
 import java.io.BufferedReader;
 
 public class DataAccessorFile implements DataAccessor {
-    private String FILENAME = "data.txt";
+    private String FILENAME = "glarmester_solution.data.txt";
     private double glassPrice, simple, ornate, lavish;
     
     public DataAccessorFile() {
