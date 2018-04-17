@@ -58,4 +58,4 @@ I am going to test the `PriceCalculator.calculatePrice()` method too, as the pro
 Test execution can be found in the in this project's source code. See the test suite [here](). 
 
 ### Test results
-
+![test-results](https://github.com/dbdness/integration-testing/blob/master/results.png)
