@@ -15,6 +15,7 @@ import glarmester_solution.presentation.TUI;
 public class Controller {
     public static final boolean DEBUG = true;
     private UI ui = new TUI();
+    //private UI ui = new GUI();
 //  private DataAccessor data = new DataAccessorFile();
     private DataAccessor data = new DataAccessorDatabase();
     private PriceCalculator logic = new PriceCalculator();
