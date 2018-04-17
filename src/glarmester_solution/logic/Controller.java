@@ -1,11 +1,9 @@
 package glarmester_solution.logic;
 
-import glarmester_solution.presentation.GUI;
 import glarmester_solution.presentation.UI;
-import glarmester_solution.data.DataAccessor;
-import glarmester_solution.data.DataAccessorDatabase;
-import glarmester_solution.logic.FrameType;
-import glarmester_solution.logic.PriceCalculator;
+import java.DataAccessor;
+import java.DataAccessorDatabase;
+
 import glarmester_solution.presentation.TUI;
 
 /**

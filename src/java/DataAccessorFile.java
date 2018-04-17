@@ -1,4 +1,4 @@
-package glarmester_solution.data;
+package java;
 
 import glarmester_solution.logic.FrameType;
 import java.io.FileReader;

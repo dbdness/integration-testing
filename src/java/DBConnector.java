@@ -1,4 +1,4 @@
-package glarmester_solution.data;
+package java;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
